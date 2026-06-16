@@ -1,0 +1,11 @@
+local repo = "https://raw.githubusercontent.com/deividcomsono/Obsidian/main/"
+
+local Library = loadstring(
+    game:HttpGet(repo .. "Library.lua")
+)()
+
+local Window = Library:CreateWindow({
+    Title = "Atenas Menu"
+})
+
+return Window
